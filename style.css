@@ -14,7 +14,7 @@
     padding: 0.35rem;
     border-radius: 1rem;
     text-align: center;
-    background: #79728f;
+    background: #171324;
     font-size: 2rem;
     position: sticky;
     top: 2rem;
@@ -22,17 +22,17 @@
 
 .navigatie1 a {
     text-decoration: none;
-    background: #79728f;
+    background: #171324;
     color: aliceblue;
 }
 
 .navigatielinks1 {
-    background: #79728f;
+    background: #171324;
     padding: 0rem 0rem 0rem 1rem;
 }
 
 .navigatielinks2 {
-    background: #79728f;
+    background: #171324;
     padding: 0rem 1rem 0rem 0rem;
 }
 

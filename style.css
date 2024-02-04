@@ -3,70 +3,76 @@
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    color: aliceblue;
 }
 
 .navigatie1 {  
     display: flex;  
     justify-content: space-between;
-    margin:2rem 5rem 0rem 5rem;
+    margin: 2rem 5rem 0rem 5rem;
     padding: 0.35rem;
     border-radius: 1rem;
     text-align: center;
     background: #79728f;
-    color: rgb(255, 255, 255);
     font-size: 2rem;
-    position:sticky;
+    position: sticky;
     top: 2rem;
-  }
+}
 
-.navigatie1 a{
+.navigatie1 a {
     text-decoration: none;
-    margin:0;
-    padding:0;
-    border-radius: 0;
     background: #79728f;
     color: aliceblue;
 }
 
-.navigatielinks1{
+.navigatielinks1 {
     background: #79728f;
     padding: 0rem 0rem 0rem 1rem;
-   }
-.navigatielinks2{
+}
+
+.navigatielinks2 {
     background: #79728f;
-     padding: 0rem 1rem 0rem 0rem;
-   }
-
-.continut{  
-        padding: 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 25% 0% 25%;  
-       
-    
-}
-.continut{               
-            color:aliceblue;
-            line-height:2.3rem;
-            text-align: justify;            
+    padding: 0rem 1rem 0rem 0rem;
 }
 
-.p{
+.test {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;  
+}
+
+.test p {
+    max-width: 20rem;
+}
+
+.continut {
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;   
+}
+.continut p{
+    max-width: 40rem;
 }
 
-.continut h1{
+.inauntru {
+    display: flex;
+    justify-content: center;
+}
+.continut {
+    color: aliceblue;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+
+.continut h1 {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
-.continut h2{
+.continut h2 {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
-

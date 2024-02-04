@@ -10,40 +10,61 @@
 .navigatie1 {  
     display: flex;  
     justify-content: space-between;
-    margin: 2rem 5rem 0rem 5rem;
+    margin: 2rem 2.3rem 0rem 2.3rem;
     padding: 0.35rem;
     border-radius: 1rem;
     text-align: center;
-    background: #171324;
+    background: #0b0911;
     font-size: 2rem;
     position: sticky;
     top: 2rem;
+    z-index: 1000;
 }
 
 .navigatie1 a {
     text-decoration: none;
-    background: #171324;
+    background: #100e1a;
     color: aliceblue;
 }
 
 .navigatielinks1 {
-    background: #171324;
+    background: #100e1a;
     padding: 0rem 0rem 0rem 1rem;
 }
 
 .navigatielinks2 {
-    background: #171324;
+    background: #100e1a;
     padding: 0rem 1rem 0rem 0rem;
 }
 
 
+
+.content {
+    position: relative;
+}
+
 .image {
-    height: 300px; /* sau orice înălțime dorită */
+    height: 100vh; /* Setează înălțimea imaginii la întreaga înălțime a ecranului */
     background-image: url('image3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
+
+.overlay-box {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: 90%;
+    background-color: #100e1a; 
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
 
 
 .loading-text {
@@ -51,8 +72,21 @@
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
+    background-color: #100e1a; 
     white-space: nowrap;
     overflow: hidden;
+}
+.text1{
+    background-color: #100e1a; 
+}
+.text2{
+    background-color: #100e1a; 
+}
+.text3{
+    background-color: #100e1a; 
+}
+.text4{
+    background-color: #100e1a; 
 }
 
 .loading-text span {

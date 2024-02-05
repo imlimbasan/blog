@@ -45,7 +45,7 @@
 
 .image {
     height: 100vh; /* Setează înălțimea imaginii la întreaga înălțime a ecranului */
-    background-image: url('image3.jpg');
+    background-image: url('images/image3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

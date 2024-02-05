@@ -1,0 +1,110 @@
+* {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: #333;
+    margin: 2rem 2.3rem 0rem 2.3rem;
+    padding: 0.65rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: #333;
+    color: white;
+    margin-left: 1rem;
+}
+
+
+.nav-links {
+    background-color: #333;
+    list-style: none;
+}
+
+.nav-links li {
+    float: right;
+    padding:0px 0.7rem;
+}
+
+.nav-links a {
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+}
+
+.alt-text{
+    display: none;
+}
+.alt-text1{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        margin: 2rem 0.4rem 2rem 0.4rem;
+    }
+
+    .nav-links li {
+        margin-right: 0.3rem;
+        float: right;
+    }
+    .nav-links li:last-child {
+        margin-right: 0rem; 
+    }
+
+    .nav-links li a {
+        display: none;
+    }
+    .li6 .li7, .li8, .li9{
+        display: none;
+    }
+  
+    .nav-links li .alt-text {
+        display: inline;
+    }
+}
+
+
+@media only screen and (max-width: 325px) {
+    header {
+        margin: 2rem 0.4rem 2rem 0.4rem;
+    }
+
+  
+
+    .nav-links li {
+        margin-right: 0.3rem;
+        padding: 0 0.4 ;
+    }
+
+    .nav-links li a:not(.alt-text1) {
+        display: none;
+    }
+
+    .alt-text {
+        display: none;
+    }
+
+    .nav-links li a.alt-text1 {
+        display: inline;
+    }
+}

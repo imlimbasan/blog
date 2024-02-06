@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(247, 247, 247);
+    background-color: #2b2525;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+nav li {
+    float: left;
+  }
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+    margin-right: 2%;
+}
+
+nav li a:hover {
+  background-color: #111111;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.container{
+    background-image: url("/images/abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 400px;
+}

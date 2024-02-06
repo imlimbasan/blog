@@ -20,6 +20,7 @@ header {
     float:right;
     width: 95%;
     z-index: 200000;
+    top:2rem;
     position:sticky;
 }
 
@@ -29,6 +30,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top:0;
+    position:sticky;
  }
 
 .logo {
@@ -224,4 +227,17 @@ background-size: cover;
 .ccontinut1 {
     flex-direction: column; 
 }
+}
+
+.containercarusel{
+    background-image: url("./images/abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carusel{
+
+text-align: center;
+    text-shadow: 3px 3px 2px black, 0 0 325px rgb(0, 0, 0);
+    padding: 16rem 0rem;
 }

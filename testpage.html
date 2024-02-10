@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular</title>
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    input[type="email"] {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .submit-btn {
+      display: block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .submit-checkbox {
+      display: none;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 5px;
+      color: #fff;
+      animation: fadeInOut 5s forwards; /* Se afișează timp de 5 secunde și se păstrează la sfârșitul animației */
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0; } /* La început și la sfârșit, opacitatea este 0 */
+      25%, 75% { opacity: 1; } /* La 25% și 75%, opacitatea este 1 */
+      90%, 100% { opacity: 0; } /* În ultimele 10% ale animației, opacitatea este 0 */
+    }
+
+    .submit-checkbox:checked + .popup {
+      display: block;
+    }
+
+    .submit-checkbox:checked + .popup + .submit-btn {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Formular de contact</h2>
+    <input type="email" id="email" name="email" placeholder="Introdu adresa de email" required>
+    <label for="submit-checkbox" class="submit-btn">Trimite</label>
+    <input type="checkbox" id="submit-checkbox" class="submit-checkbox">
+    <div class="popup">
+      <p>Email-ul tău a fost trimis cu succes!</p>
+    </div>
+  </div>
+</body>
+</html>

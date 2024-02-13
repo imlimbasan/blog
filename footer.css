@@ -17,28 +17,25 @@ footer {
                     color: #333;  
                     background-color: #333; 
                   }
-
-
-
 .footer-content li a {
     text-decoration: none;
     color: white;
 }
   
 .footer-content li{
-    margin: 10px;
-    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
     text-align: left;
 }
 
 .footer-content{
     display: flex;
     justify-content: space-between;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .footer-links{
-    margin-top: 7%;
+    
     margin-bottom: 5%;
 }
 
@@ -46,7 +43,107 @@ footer {
 
 
 
+
 .over-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top:-3rem;
+    border-radius: 1rem;
+    background-color: #2f9ff5;
+    max-width: 40rem;
+    max-height: 20rem;
+    margin: 0 auto; 
+    padding: 0 5rem;
+}
+
+
+
+.test{
+   text-align:center;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.test2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.email{
+ display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border:0px;
+    padding: 0.3rem;
+    outline: none;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    border: 0.4rem;
+    padding: 0.2rem 0.8rem;
+  }
+
+  .submit-btn:hover {
+    background-color: #0051a8;
+  }
+  
+  .submit-checkbox {
+    display: none;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 81%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 140, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    animation: fadeInOut 5s forwards; /* Se afișează timp de 5 secunde și se păstrează la sfârșitul animației */
+  }
+
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; } /* La început și la sfârșit, opacitatea este 0 */
+    25%, 75% { opacity: 1; } /* La 25% și 75%, opacitatea este 1 */
+    90%, 100% { opacity: 0; } /* În ultimele 10% ale animației, opacitatea este 0 */
+  }
+
+  .submit-checkbox:checked + .popup {
+    display: block;
+  }
+
+  .submit-checkbox:checked + .popup + .submit-btn {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+/*    pentru mobile e super ok
+  .over-footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,20 +152,12 @@ footer {
     position: relative;
     top:-1rem;
     border-radius: 10px;
-   background-color: #2f9ff5;
+    background-color: #031625;
+}
+
+.test{
     
 }
-
-
-
-.over-content1{
-    display: flex;
-    align-items: center; 
- margin: 1rem;
-}
-.over-content2{
-    margin: 3rem;
-   }
 
 .email{
     font-size: 1.2rem;
@@ -104,13 +193,13 @@ footer {
     padding: 20px;
     border-radius: 5px;
     color: #fff;
-    animation: fadeInOut 5s forwards; /* Se afișează timp de 5 secunde și se păstrează la sfârșitul animației */
+    animation: fadeInOut 5s forwards; 
   }
 
   @keyframes fadeInOut {
-    0%, 100% { opacity: 0; } /* La început și la sfârșit, opacitatea este 0 */
-    25%, 75% { opacity: 1; } /* La 25% și 75%, opacitatea este 1 */
-    90%, 100% { opacity: 0; } /* În ultimele 10% ale animației, opacitatea este 0 */
+    0%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; } 
+    90%, 100% { opacity: 0; } 
   }
 
   .submit-checkbox:checked + .popup {
@@ -120,6 +209,13 @@ footer {
   .submit-checkbox:checked + .popup + .submit-btn {
     display: none;
   }
+*/
+
+
+
+
+
+
 
 
 
@@ -127,14 +223,14 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 11%;
+    margin-left: 11%;
 }
 
 .footer-underline-terms{
     display: flex;
     flex-direction: row;
-    margin: 5%;
+    margin: 2% 5% 5% 0% ;
 }
         .footer-underline-terms p{
             display: flex;
@@ -150,7 +246,8 @@ footer {
 .footer-underline-social {
     display: flex;
     flex-direction: row;
-    margin: 5%;
+   
+    margin: 2% 0% 5% 0%;
 }
         .fa-brands {
             font-size: 1.3rem;

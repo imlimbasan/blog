@@ -1,73 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formular</title>
-  <style>
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    input[type="email"] {
-      display: block;
-      margin-bottom: 10px;
-    }
-
-    .submit-btn {
-      display: block;
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-align: center;
-    }
-
-    .submit-checkbox {
-      display: none;
-    }
-
-    .popup {
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 20px;
-      border-radius: 5px;
-      color: #fff;
-      animation: fadeInOut 5s forwards; /* Se afișează timp de 5 secunde și se păstrează la sfârșitul animației */
-    }
-
-    @keyframes fadeInOut {
-      0%, 100% { opacity: 0; } /* La început și la sfârșit, opacitatea este 0 */
-      25%, 75% { opacity: 1; } /* La 25% și 75%, opacitatea este 1 */
-      90%, 100% { opacity: 0; } /* În ultimele 10% ale animației, opacitatea este 0 */
-    }
-
-    .submit-checkbox:checked + .popup {
-      display: block;
-    }
-
-    .submit-checkbox:checked + .popup + .submit-btn {
-      display: none;
-    }
-  </style>
+  <title>Footer Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b42bd02faf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <h2>Formular de contact</h2>
-    <input type="email" id="email" name="email" placeholder="Introdu adresa de email" required>
-    <label for="submit-checkbox" class="submit-btn">Trimite</label>
-    <input type="checkbox" id="submit-checkbox" class="submit-checkbox">
-    <div class="popup">
-      <p>Email-ul tău a fost trimis cu succes!</p>
+
+  <footer>
+    <div class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+            <a href="#" class="fa-brands fa-x-twitter"></a>
+            <a href="#" class="fa-brands fa-telegram"></a>
+            <a href="#" class="fa-brands fa-youtube"></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
     </div>
+     <hr>
+     <div class="footer-underline">
+      <p class=>&copy; 2024 DYOR</p>
+      <p class=>Terms</p>
+      <p class=>Privacy</p>
   </div>
+  </footer>
+
+
+
 </body>
 </html>

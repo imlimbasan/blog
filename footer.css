@@ -52,8 +52,8 @@ footer {
     top:-3rem;
     border-radius: 1rem;
     background-color: #2f9ff5;
-    max-width: 40rem;
-    max-height: 20rem;
+    max-width: 25rem;
+    max-height: 17rem;
     margin: 0 auto; 
     padding: 0 5rem;
 }
@@ -299,3 +299,83 @@ footer {
                                                                     display: none;
                                                                     visibility: hidden;
                                                                 }
+
+
+
+
+
+                                                                .newsletter-container {
+                                                                    background-color: #000000;                                                                  
+                                                                    border-radius: 1rem;                                                                   
+                                                                    max-width: 20rem;
+                                                                    margin: 0 auto;
+                                                                }
+                                                                .newsletter-container h1 {
+                                                                    background-color: #000000;                                                                  
+                                                                    
+                                                                    margin-bottom: 3rem;
+                                                                }
+                                                                
+                                                                
+                                                                .newsletter-content {
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                                                                               
+                                                                
+                                                                .newsletter-content form {
+                                                                    display: flex;                                                                   
+                                                                    align-items: center;
+                                                                }
+                                                                
+                                                                .newsletter-content input[type="email"] {
+                                                                    font-size: 1rem;
+                                                                    width: 100%;
+                                                                    max-width: 20rem;
+                                                                    padding: 0.5rem ;
+                                                                    border: none;
+                                                                    color: #f5f5f5;
+                                                                    background-color: #000000;
+                                                                    border-radius: 0.5rem;
+                                                                  
+                                                                    outline: none;
+                                                                }
+                                                                
+                                                                .newsletter-content button {
+                                                                    font-size: 1rem;
+                                                                    padding: 0.5rem 1rem;
+                                                                    margin-left: 3rem;
+                                                                    border: none;
+                                                                    border-radius: 0.5rem;                                                            
+                                                                    color: #ffffff;
+                                                                    cursor: pointer;
+                                                                    background-color: #3d3d3d;
+                                                                    transition: background-color 0.3s ease;
+                                                                    font-weight: 200;
+                                                                    
+                                                                }
+                                                                
+                                                               
+                                                                .newsletter-content button:hover {
+                                                                    background-color: #4d4d4d;
+                                                                }
+
+                                                                
+                                                                .newsletter-content button:active{
+                                                                    background-color: #3d3d3d;
+                                                                    color: #b4b4b4;
+                                                                }
+
+
+
+
+
+
+
+
+
+
+/* test FOOTET IN FOOTER*/
+
+
